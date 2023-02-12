@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+}
+
+.logoContainer{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 100px;
+    height: 95px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+} 
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+#carForm {
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+#manufacturer {
+    width: 20%;
+    margin: 5px 0;
+}
+
+#license {
+    width: 20%;
+}
+
+form p, form label {
+    margin: 5px 0 0;
+}
+
+#comments {
+    width: 25%;
+    margin: 5px 0;
+}
+
+#email {
+    width: 20%;
+}
+
+#submitBtn {
+    width: 10%;
+    margin: 5px;
+}
+
